@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.0.43
+ENV VERSION=2.0.44
 
 RUN gem install access --version ${VERSION} --no-format-exec
 
